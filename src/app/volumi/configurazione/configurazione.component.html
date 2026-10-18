@@ -1,0 +1,18 @@
+<div class="p-3">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Carica Logo Aziendale</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="mt-3">
+      <div class="mb-3">
+        <label for="fileUpload" class="form-label">Seleziona un'immagine (PNG/JPG):</label>
+        <input id="fileUpload" type="file" class="form-control" (change)="onFileSelected($event)" accept="image/*" />
+      </div>
+
+      <div *ngIf="imageBase64" class="mt-3">
+        <p>Anteprima:</p>
+        <img [src]="imageBase64" alt="Anteprima Logo" style="max-height: 100px; border: 1px solid #ccc; padding: 5px;" />
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
