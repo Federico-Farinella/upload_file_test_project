@@ -7,7 +7,7 @@ import { LogoStateService } from '../logo-state.service';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  //styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
   logoUrl: string | null = null;

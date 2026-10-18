@@ -8,6 +8,6 @@ export const routes: Routes = [
   },
   {
     path: 'volumi',
-    loadComponent: () => import('./volumi/volumi.component').then(m => m.VolumiComponent)
+    loadComponent: () => import('./dashboard/dashboard.component').then(m => m.DashBoardComponent)
   }
 ];

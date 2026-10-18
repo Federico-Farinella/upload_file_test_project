@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatTabsModule } from '@angular/material/tabs';
-import { ConfigurazioneComponent } from './configurazione/configurazione.component';
+import { ConfigurazioneComponent } from '../configurazione/configurazione.component';
 
 @Component({
   selector: 'jhi-volumi',
@@ -11,7 +11,7 @@ import { ConfigurazioneComponent } from './configurazione/configurazione.compone
     MatTabsModule,
     ConfigurazioneComponent
   ],
-  templateUrl: './volumi.component.html',
-  styleUrls: ['./volumi.component.css']
+  templateUrl: './dashboard/dashboard.component.html',
+  //styleUrls: ['./volumi.component.css']
 })
-export class VolumiComponent {}
+export class DashBoardComponent {}
