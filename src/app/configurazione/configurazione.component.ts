@@ -13,6 +13,7 @@ import { LogoStateService } from '../shared/logo-state.service';
   templateUrl: './configurazione.component.html',
   //styleUrls: ['./configurazione.component.css']
 })
+  // ALTRO TESTO PROVA VIA GITHUB
 export class ConfigurazioneComponent {
   imageBase64: string | null = null;
 
