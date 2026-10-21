@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { LogoStateService } from '../shared/logo-state.service';
-
+//MODIFICA FATTA PER PROVA GITHUB
 @Component({
   selector: 'jhi-configurazione',
   standalone: true,
